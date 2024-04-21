@@ -3,19 +3,31 @@ body{
     padding: 0;
 }
 .header{
-    background-color: rgb(28, 28, 84);
+    height: 100vh;
+    background-image: url('sean-do-EHLd2utEf68-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: rgba(28, 28, 84, 0.671);
+    filter: blur(4px);
+}
+.container{
+    filter: blur(0);
 }
 img{
+    float: left;
     height: 70px;
     width: 70px;
 }
 h2{
+    padding: 10px;
     color: white;
     text-align: center;
     padding:10px;
     display: inline;
 }
 h3{
+    padding-left: 110px;
     color: white;
-    display: inline;
+    display: block;
 }
